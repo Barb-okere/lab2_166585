@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Gallery</title>
+     <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .scroll-container {
+      display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+      scroll-behavior: smooth;
+      gap: 10px;
+      padding: 20px;
+      background: #f4f4f4;
+    }
+
+    .scroll-container img {
+      height: 300px;
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+  </style>
+
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="features.html">Features</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="bikes.html">Bike Gallery</a>
+    </nav>
+
+    <header>
+        <h1>Bike Gallery</h1>
+    </header>
+
+    <main>
+        <div class="scroll-container">
+        <img src="images/bikes1.jpg" alt="Bike 1" class="bike-image">
+        <img src="images/bikes2.jpg" alt="Bike 2" class="bike-image">
+        <img src="images/bikes3.jpg" alt="Bike 3" class="bike-image">
+        <img src="images/bikes4.jpg" alt="Bike 4" class="bike-image">
+        <img src="images/bikes5.jpg" alt="Bike 5" class="bike-image">
+        <img src="images/bikes6.jpg" alt="Bike 6" class="bike-image">
+        <img src="images/bikes7.jpg" alt="Bike 7" class="bike-image">
+        <img src="images/bikes8.jpg" alt="Bike 8" class="bike-image">
+        <img src="images/bikes9.jpg" alt="Bike 9" class="bike-image">
+        </div>
+        <!-- Add more bike images as needed -->
+    </main>
+
+    <footer>
+        <p>&copy; 2025 FlirtOnWheels. All rights reserved.</p>
+    </footer>
+</body>
+</html>

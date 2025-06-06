@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+     <nav>
+            <a href="index.html">Home</a>
+        </nav>
+     <header>
+        <h1>Login to Flirt On Wheels</h1>
+    </header>
+     <div class="login-container">
+    <form class="login-form" onsubmit="return validateLogin()">
+      <h2>Login</h2>
+         <p id="error-msg" class="error"></p>
+         </form>
+         </div>
+    <main>
+        <img src="images/bikes13.jpg" alt="Background" class="bike-image">
+        <section>
+            <h2>Welcome Back!</h2>
+            <p>Please enter your credentials to log in.</p>
+        </section>
+        <form action="login_process.php" method="POST">
+            <label for="username">Name:</label><br>
+            <input type="text" id="username" placeholder="input username" required><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Login">
+        </form>
+        <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </main>
+    <footer>
+        <p>&copy; 2023 Flirt On Wheels. All rights reserved.</p>
+        <script src="java.js"></script>
+</body>
+</html>
